@@ -1,0 +1,152 @@
+Ignition Hand #4215826825: HOLDEM Tournament #38970560 TBL#1, Turbo- Level 1 (10/20) - 2020-12-14 00:17:35
+Seat 2: Dealer (500 in chips)
+Seat 1: Small Blind [ME] (500 in chips)
+Seat 3: Big Blind (500 in chips)
+Dealer : Table enter user
+Big Blind : Table enter user
+Dealer : Draw for dealer [Qh] 
+Small Blind [ME] : Draw for dealer [6c] 
+Big Blind : Draw for dealer [3d] 
+Dealer : Set dealer [1] 
+Small Blind [ME] : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+Dealer : Card dealt to a spot [4c 6d] 
+Small Blind [ME] : Card dealt to a spot [8h 9h] 
+Big Blind : Card dealt to a spot [Th 8s] 
+Dealer : Folds
+Small Blind [ME] : Raises 50 to 60
+Big Blind : Call 40 
+*** FLOP *** [Ts 7c Qc]
+Small Blind [ME] : Bets 60 
+Big Blind : All-in(raise) 440 to 440
+Small Blind [ME] : Folds
+Big Blind : Return uncalled portion of bet 380 
+Big Blind : Does not show [Th 8s] (One pair)
+Big Blind : Hand Result 240 
+*** SUMMARY ***
+Total Pot(240)
+Board [Ts 7c Qc  ]
+Seat+2: Dealer Folded on the FLOP
+Seat+1: Small Blind Folded on the FLOP
+Seat+3: Big Blind 240 [Does not show]  
+
+
+Ignition Hand #4215827423: HOLDEM Tournament #38970560 TBL#1, Turbo- Level 1 (10/20) - 2020-12-14 00:18:13
+Seat 2: Big Blind (500 in chips)
+Seat 1: Dealer [ME] (380 in chips)
+Seat 3: Small Blind (620 in chips)
+Dealer [ME] : Set dealer [2] 
+Small Blind : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+Big Blind : Card dealt to a spot [5d 5h] 
+Dealer [ME] : Card dealt to a spot [5c Td] 
+Small Blind : Card dealt to a spot [4c 6c] 
+Dealer [ME] : Folds
+Small Blind : Raises 50 to 60
+Big Blind : Call 40 
+*** FLOP *** [Ah 6s Jd]
+Small Blind : Checks
+Big Blind : Checks
+*** TURN *** [Ah 6s Jd] [7h]
+Small Blind : Bets 40 
+Big Blind : Call 40 
+*** RIVER *** [Ah 6s Jd 7h] [3s]
+Small Blind : Checks
+Big Blind : Checks
+Small Blind : Showdown [6s 6c Ah Jd 7h] (One pair)
+Big Blind : Mucks [5d 5h] (One pair)
+Small Blind : Hand Result 200 
+*** SUMMARY ***
+Total Pot(200)
+Board [Ah 6s Jd 7h 3s]
+Seat+2: Big Blind [Mucked] [5d 5h ]  
+Seat+1: Dealer Folded on the FLOP
+Seat+3: Small Blind 200  with One pair [4c 6c-6s 6c Ah Jd 7h]  
+
+
+Ignition Hand #4215827905: HOLDEM Tournament #38970560 TBL#1, Turbo- Level 1 (10/20) - 2020-12-14 00:18:58
+Seat 2: Small Blind (400 in chips)
+Seat 1: Big Blind [ME] (380 in chips)
+Seat 3: Dealer (720 in chips)
+Dealer : Set dealer [3] 
+Small Blind : Small blind 10 
+Big Blind [ME] : Big blind 20 
+*** HOLE CARDS ***
+Small Blind : Card dealt to a spot [5h Kc] 
+Big Blind [ME] : Card dealt to a spot [Jh Td] 
+Dealer : Card dealt to a spot [Kh 7d] 
+Dealer : Raises 60 to 60
+Small Blind : Folds
+Big Blind [ME] : Call 40 
+*** FLOP *** [Qs 8d 3d]
+Big Blind [ME] : Bets 40 
+Dealer : Folds
+Big Blind [ME] : Return uncalled portion of bet 40 
+Big Blind [ME] : Does not show [Jh Td] (High Card)
+Big Blind [ME] : Hand Result 130 
+*** SUMMARY ***
+Total Pot(130)
+Board [Qs 8d 3d  ]
+Seat+2: Small Blind Folded on the FLOP
+Seat+1: Big Blind 130 [Does not show]  
+Seat+3: Dealer Folded on the FLOP
+
+
+Ignition Hand #4215828170: HOLDEM Tournament #38970560 TBL#1, Turbo- Level 1 (10/20) - 2020-12-14 00:19:25
+Seat 2: Dealer (390 in chips)
+Seat 1: Small Blind [ME] (450 in chips)
+Seat 3: Big Blind (660 in chips)
+Dealer : Set dealer [1] 
+Small Blind [ME] : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+Dealer : Card dealt to a spot [8h 6d] 
+Small Blind [ME] : Card dealt to a spot [4d 6s] 
+Big Blind : Card dealt to a spot [Td Ad] 
+Dealer : Folds
+Small Blind [ME] : Folds
+Big Blind : Does not show [Td Ad] (High Card)
+Big Blind : Hand Result 30 
+*** SUMMARY ***
+Total Pot(30)
+Seat+2: Dealer Folded on the FLOP
+Seat+1: Small Blind Folded on the FLOP
+Seat+3: Big Blind 30 [Does not show]  
+
+
+Ignition Hand #4215828294: HOLDEM Tournament #38970560 TBL#1, Turbo- Level 1 (10/20) - 2020-12-14 00:19:37
+Seat 2: Big Blind (390 in chips)
+Seat 1: Dealer [ME] (440 in chips)
+Seat 3: Small Blind (670 in chips)
+Dealer [ME] : Set dealer [2] 
+Small Blind : Small blind 10 
+Big Blind : Big blind 20 
+*** HOLE CARDS ***
+Big Blind : Card dealt to a spot [2h Jd] 
+Dealer [ME] : Card dealt to a spot [8d 8s] 
+Small Blind : Card dealt to a spot [8c 9s] 
+Dealer [ME] : Raises 60 to 60
+Small Blind : Call 50 
+Big Blind : Folds
+*** FLOP *** [Qs 3c 3d]
+Small Blind : Bets 70 
+Dealer [ME] : Call 70 
+*** TURN *** [Qs 3c 3d] [9h]
+Small Blind : All-in 540 
+Dealer [ME] : All-in 310 
+Small Blind : Return uncalled portion of bet 230 
+*** RIVER *** [Qs 3c 3d 9h] [Kc]
+Dealer [ME] : Showdown [8s 8d 3d 3c Kc] (Two pair)
+Small Blind : Showdown [9s 9h 3d 3c Kc] (Two pair)
+Small Blind : Hand Result 900 
+Dealer [ME] : Ranking 3 
+Dealer [ME] : Stand
+*** SUMMARY ***
+Total Pot(900)
+Board [Qs 3c 3d 9h Kc]
+Seat+2: Big Blind Folded on the FLOP
+Seat+1: Dealer lose with Two pair [8d 8s-8s 8d 3d 3c Kc]  
+Seat+3: Small Blind 900  with Two pair [8c 9s-9s 9h 3d 3c Kc]  
+

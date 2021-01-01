@@ -1,0 +1,12 @@
+Project created 12/28/20
+
+
+1/1/21 
+- Changelog created 
+- Created basic Tournament, Hand, Player components
+- Added a tournament.txt file to directory for testing 
+- Created IgnitionMapper to read tournament.txt file and pull needed values using regex
+    - Then creates a Tournament component using pulled values
+    - Currently reads 1st line of Hand (tournament info) and pulls handId, tournamentId, timeStamp
+    - Simple display to show that its working
+
