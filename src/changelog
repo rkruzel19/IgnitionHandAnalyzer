@@ -10,3 +10,12 @@ Project created 12/28/20
     - Currently reads 1st line of Hand (tournament info) and pulls handId, tournamentId, timeStamp
     - Simple display to show that its working
 
+1/4/21
+- Bug in IgnitionMapper when applying regex to fields that were empty due to bad rendering flow. 
+    - Fixed by adding "Upload File" button which imports the txt file, then creates fields, finally returns Tournament component
+
+1/5/21
+- Made Mappers folder in components. Tournament, Hand, and Player will have a Mapper to pull the necessary data from txt file and 
+  create the approriate component.
+- IgnitionMapper => TournamentMapper => HandMapper => PlayerMapper
+
