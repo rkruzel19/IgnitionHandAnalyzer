@@ -12,8 +12,8 @@ function Tournament(props){
         <div className="tournament">
             <h3>Tournament id: {id}</h3>
             <h3>Start time: {startTime}</h3>
-            <h3>Hands: {hands}</h3>
             <h3>Extra: {extra}</h3>
+            <h3>Hands: {hands}</h3>
         </div>
     )
 }

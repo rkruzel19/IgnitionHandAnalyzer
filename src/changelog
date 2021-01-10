@@ -25,3 +25,6 @@ Project created 12/28/20
 - Added regex to Hand and Player to start pulling data from textFile
 - Basic flow is complete. IGmapper calls TournyMapper calls HandMapper calls PlayerMapper. All goes back to overall Tournament component
 
+1/10/21
+- Imported ScheduledTournament.txt (multi-table tournament, more than 3 players per hand. ie different data set)
+- Can toggle between JackpotSNG and ScheduledTournament txt files using comments on imports in IgnitionMapper

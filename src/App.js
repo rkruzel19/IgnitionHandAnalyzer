@@ -2,12 +2,12 @@ import Player from './components/Player';
 import Hand from './components/Hand'
 import './style/App.css';
 import Tournament from './components/Tournament';
-import IgnitionMapperFunctional from './components/mappers/IgnitionMapperFunctional';
+import IgnitionMapper from './components/mappers/IgnitionMapper';
 
 function App() {
   return (
     <div>
-      <IgnitionMapperFunctional/>
+      <IgnitionMapper/>
     </div>
   );
 }

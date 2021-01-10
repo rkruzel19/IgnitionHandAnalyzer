@@ -6,14 +6,13 @@ function HandMapper(hand){
 
     const handIdRegex = /(?<=Hand #)\d+/ 
     const timeStampRegex = /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/
-    const blindLevelRegex = /Level \d+/
+    const blindLevelRegex = /Level .+\)/
     const playerInfoRegex = /(?<=\d{2}:\d{2}\r\n)(.|\r\n)*(?<=\nSeat \d.*)/
 
     const handId = handIdRegex.exec(hand)[0]
     const timeStamp = timeStampRegex.exec(hand)[0]
     const blindLevel = blindLevelRegex.exec(hand)[0]
     const playerInfo = playerInfoRegex.exec(hand)[0]
-    const regexTest = playerInfoRegex.test(hand)
   
     const allPlayers = playerInfo.split("\r\n")
     var playerComponents = []

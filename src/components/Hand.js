@@ -18,10 +18,11 @@ function Hand(props){
         <div className="hand">
             <h3>Hand id: {id}</h3>
             <h3>Start time: {startTime}</h3>
-            <h3>players: {players}</h3>
+            
             {/* <h3>winner: {winner}</h3> */}
             {/* <h3>action: {action}</h3> */}
             <h3>blind level: {blindLevel}</h3>
+            <h3>players: {players}</h3>
             {/* <h3>blinds: {blinds}</h3> */}
             {/* <h3>dealer: {dealer}</h3> */}
             {/* <h3>communityCards: {communityCards}</h3> */}

@@ -1,10 +1,11 @@
-import HandData from "../../Tourny38970560.txt";
+// import HandData from "../../JackpotSNG.txt";
+import HandData from "../../ScheduledTournament.txt";
 import {useState, useEffect} from "react";
 import Tournament from "../Tournament" 
 import TournamentMapper from "./TournamentMapper";
 
 
-function IgnitionMapperFunctional() {
+function IgnitionMapper() {
 
     const [fileText, setFileText] = useState("")
     const [allHands, setAllHands] = useState("")
@@ -32,4 +33,4 @@ function IgnitionMapperFunctional() {
     )
 }
 
-export default IgnitionMapperFunctional
+export default IgnitionMapper
