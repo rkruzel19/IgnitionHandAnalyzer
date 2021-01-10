@@ -1,21 +1,23 @@
 import {useState} from "react"
+import '../style/Player.css';
 
-function Player() {
+function Player(props) {
 
-    const [id, setId] = useState(1)
-    const [stackSize, setStackSize] = useState(1000)
-    const [holeCards, setHoleCards] = useState(["Ah", "7s"])
-    const [position, setPosition] = useState("")
-    const [seatPosition, setSeatPosition] = useState(3)
+    const [id, setId] = useState(props.info.id)
+    const [stackSize, setStackSize] = useState(props.info.stackSize)
+    const [holeCards, setHoleCards] = useState(props.info.holeCards)
+    const [position, setPosition] = useState(props.info.position)
+    const [seatPosition, setSeatPosition] = useState(props.info.seatPosition)
 
 
     return (
-        <div>
-            <h1>Player id: {id}</h1>
-            <h1>Stack size: {stackSize}</h1>
-            <h1>Hole cards: {holeCards}</h1>
-            <h1>Position: {position}</h1>
-            <h1>Seat Position: {seatPosition}</h1>
+        <div className="player">
+            <h3>Player id: {id}</h3>
+            <h3>Stack size: {stackSize}</h3>
+            {/* <h3>Hole cards: {holeCards}</h3> */}
+            <h3>Position: {position}</h3>
+            {/* <h3>Seat Position: {seatPosition}</h3> */}
+            <h3>----------------------</h3>
         </div>
     )
 }

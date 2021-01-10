@@ -19,3 +19,9 @@ Project created 12/28/20
   create the approriate component.
 - IgnitionMapper => TournamentMapper => HandMapper => PlayerMapper
 
+1/9/21
+- Implemented Tournament, Hand, and Player mapper classes. 
+- Added css to each to easily show on UI what text is from what component
+- Added regex to Hand and Player to start pulling data from textFile
+- Basic flow is complete. IGmapper calls TournyMapper calls HandMapper calls PlayerMapper. All goes back to overall Tournament component
+

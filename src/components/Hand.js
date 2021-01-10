@@ -1,26 +1,31 @@
 import {useState} from "react"
+import '../style/Hand.css';
 
-function Hand(){
+function Hand(props){
 
-    const [id, setId] = useState(2447299042)
-    const [players, setPlayers] = useState([])
-    const [winner, setWinner] = useState("")
-    const [action, setAction] = useState([])
-    const [blinds, setBlinds] = useState([10, 20])
-    const [dealer, setDealer] = useState("")
-    const [communityCards, setCommunityCards] = useState(["2h", "7s", "5s", "8c", "Kd"])
-    const [stage, setStage] = useState("Flop")
+    const [id, setId] = useState(props.info.id)
+    const [players, setPlayers] = useState(props.info.players)
+    const [winner, setWinner] = useState(props.info.winner)
+    const [action, setAction] = useState(props.info.action)
+    const [blinds, setBlinds] = useState(props.info.blinds)
+    const [dealer, setDealer] = useState(props.info.dealer)
+    const [communityCards, setCommunityCards] = useState(props.info.communityCards)
+    const [stage, setStage] = useState(props.info.stage)
+    const [startTime, setStartTime] = useState(props.info.startTime)
+    const [blindLevel, setBlindLevel] = useState(props.info.blindLevel)
 
     return (
-        <div>
-            <h1>Hand id: {id}</h1>
-            <h1>players: {players}</h1>
-            <h1>winner: {winner}</h1>
-            <h1>action: {action}</h1>
-            <h1>blinds: {blinds}</h1>
-            <h1>dealer: {dealer}</h1>
-            <h1>communityCards: {communityCards}</h1>
-            <h1>stage: {stage}</h1>
+        <div className="hand">
+            <h3>Hand id: {id}</h3>
+            <h3>Start time: {startTime}</h3>
+            <h3>players: {players}</h3>
+            {/* <h3>winner: {winner}</h3> */}
+            {/* <h3>action: {action}</h3> */}
+            <h3>blind level: {blindLevel}</h3>
+            {/* <h3>blinds: {blinds}</h3> */}
+            {/* <h3>dealer: {dealer}</h3> */}
+            {/* <h3>communityCards: {communityCards}</h3> */}
+            {/* <h3>stage: {stage}</h3> */}
         </div>
     )
 }

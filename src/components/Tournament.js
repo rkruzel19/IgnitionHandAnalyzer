@@ -1,4 +1,5 @@
 import {useState} from "react"
+import '../style/Tournament.css';
 
 function Tournament(props){
 
@@ -8,7 +9,7 @@ function Tournament(props){
     const [extra, setExtra] = useState(props.info.extra)
 
     return (
-        <div>
+        <div className="tournament">
             <h3>Tournament id: {id}</h3>
             <h3>Start time: {startTime}</h3>
             <h3>Hands: {hands}</h3>
