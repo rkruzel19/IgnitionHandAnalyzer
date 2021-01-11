@@ -4,8 +4,6 @@ import HandMapper from "./HandMapper"
 
 function TournamentMapper(tournamentText) {
 
-    const hands = tournamentText.split("\r\n\r\n\r\n")
-
     const tournamentInfoRegex = /Ignition.*/
     const tournamentIdRegex = /(?<=Tournament #)\d+/
     const timeStampRegex = /\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/
@@ -14,12 +12,7 @@ function TournamentMapper(tournamentText) {
     const timeStamp = timeStampRegex.exec(tournamentInfo)[0]
     const tournamentId = tournamentIdRegex.exec(tournamentInfo)[0]
 
-    var handComponents = []
-
-    hands.forEach(hand => {
-        const handComponent = HandMapper(hand)
-        handComponents.push(handComponent)
-    });
+    var handComponents = HandMapper(tournamentText)
 
     const mockTournament = <Tournament
         info = {{
@@ -29,11 +22,8 @@ function TournamentMapper(tournamentText) {
         }}
     />
 
-    return (
-        <div>
-            {mockTournament}
-        </div>
-    )
+    return mockTournament
+    
 
 }
 
