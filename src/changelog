@@ -34,3 +34,4 @@ Project created 12/28/20
   TournyMapper only knows tourny info, handMapper => hand info, PlayerMapper => player info
 - ***ALL MAPPERS DONE***
   - mvp for all mappers done. pulls all necessary info from txt file and creates a Tournament component from it.
+- Made secondary setupRegex for when hand txt doesn't have a "Set dealer line". Found this problem in ScheduledTournament

@@ -28,7 +28,8 @@ function HandMapper(tournamentText){
         const action = [] 
 
         const setupStageRegex = /.+Set(.|\r\n)+(?=\r\n.+HOLE)/
-        const setupStage = setupStageRegex.exec(hand)[0]
+        const secondarySetupRegex = /(?!(.|\r\n)+(?<=in chips\)\r\n))(.|\r\n)+(?=\r\n.+HOLE)/
+        const setupStage = setupStageRegex.test(hand) === true ? setupStageRegex.exec(hand)[0] : secondarySetupRegex.exec(hand)[0]
         const allStageLines = setupStage.split("\r\n")
 
         const actionRegex = /(?!(.|\r\n)+(?<=\[.{5}\] \r\n))(.|\r\n)*(?=\r\n.*SUMMARY)/
