@@ -31,9 +31,31 @@ function HandMapper(tournamentText){
         const setupStage = setupStageRegex.exec(hand)[0]
         const allStageLines = setupStage.split("\r\n")
 
+        const actionRegex = /(?!(.|\r\n)+(?<=\[.{5}\] \r\n))(.|\r\n)*(?=\r\n.*SUMMARY)/
+        const actionBlock = actionRegex.exec(hand)[0]
+        const actionByLine = actionBlock.split("\r\n")
+
         allStageLines.forEach(line => {
             action.push(line)
         });
+
+        actionByLine.forEach(line => {
+            action.push(line)
+        });
+
+        // Summary Info
+        const summaryRegex = /(?<=SUMMARY.*\r\n)(.|\r\n)*/
+        const summary = summaryRegex.exec(hand)[0]
+
+        const totalPotRegex = /(?<=\()\d*/
+        const totalPot = totalPotRegex.exec(summary)[0]
+
+        const communityCardsRegex = /(?<=Board \[)( |\w{2})*(?=\])/
+        const communityCards = communityCardsRegex.test(summary) === true ? communityCardsRegex.exec(summary)[0] : "NO FLOP"
+
+        const playerSummaryRegex = /(?=Seat)(.|\r\n)*/
+        const playerSummaries = playerSummaryRegex.exec(summary)[0]
+        const eventSummary = playerSummaries.split("\r\n")
 
         const mockHand = <Hand
             info = {{
@@ -41,7 +63,10 @@ function HandMapper(tournamentText){
                 startTime: timeStamp,
                 blindLevel: blindLevel,
                 players: playerComponents,
-                action: action
+                action: action,
+                totalPot: totalPot,
+                communityCards: communityCards,
+                eventSummary: eventSummary
             }}
         />
 

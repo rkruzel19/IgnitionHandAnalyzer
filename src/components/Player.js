@@ -9,12 +9,16 @@ function Player(props) {
     const [position, setPosition] = useState(props.info.position)
     const [seatPosition, setSeatPosition] = useState(props.info.seatPosition)
 
+    function testFunction() {
+        console.log("test works")
+    }
+
 
     return (
         <div className="player">
             <h3>Player id: {id}</h3>
             <h3>Stack size: {stackSize}</h3>
-            {/* <h3>Hole cards: {holeCards}</h3> */}
+            <h3>Hole cards: {holeCards}</h3>
             <h3>Position: {position}</h3>
             {/* <h3>Seat Position: {seatPosition}</h3> */}
             <h3>----------------------</h3>

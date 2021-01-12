@@ -28,3 +28,9 @@ Project created 12/28/20
 1/10/21
 - Imported ScheduledTournament.txt (multi-table tournament, more than 3 players per hand. ie different data set)
 - Can toggle between JackpotSNG and ScheduledTournament txt files using comments on imports in IgnitionMapper
+
+1/11/21
+- Made mappers more single responsibility. Before some player tasks were given to handMapper and hand tasks given to TournamentMapper. Now 
+  TournyMapper only knows tourny info, handMapper => hand info, PlayerMapper => player info
+- ***ALL MAPPERS DONE***
+  - mvp for all mappers done. pulls all necessary info from txt file and creates a Tournament component from it.

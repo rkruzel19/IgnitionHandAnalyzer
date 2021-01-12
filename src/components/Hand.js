@@ -13,6 +13,8 @@ function Hand(props){
     const [stage, setStage] = useState(props.info.stage)
     const [startTime, setStartTime] = useState(props.info.startTime)
     const [blindLevel, setBlindLevel] = useState(props.info.blindLevel)
+    const [totalPot, setTotalPot] = useState(props.info.totalPot)
+    const [eventSummary, setEventSummary] = useState(props.info.eventSummary)
 
     return (
         <div className="hand">
@@ -22,11 +24,15 @@ function Hand(props){
             {/* <h3>winner: {winner}</h3> */}
             
             <h3>blind level: {blindLevel}</h3>
-            <h3>action: {action}</h3>
+            <h3>total pot: {totalPot}</h3>
+            <h3>communityCards: {communityCards}</h3>
+            <h4>action: {action}</h4>
+            
+            <h4>event summary: {eventSummary}</h4>
             <h3>players: {players}</h3>
             {/* <h3>blinds: {blinds}</h3> */}
             {/* <h3>dealer: {dealer}</h3> */}
-            {/* <h3>communityCards: {communityCards}</h3> */}
+            
             {/* <h3>stage: {stage}</h3> */}
         </div>
     )
