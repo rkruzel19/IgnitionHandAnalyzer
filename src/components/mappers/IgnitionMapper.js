@@ -8,7 +8,7 @@ import TournamentMapper from "./TournamentMapper";
 function IgnitionMapper() {
 
     const [fileText, setFileText] = useState("")
-    const [allHands, setAllHands] = useState("")
+    const [tournament, setTournament] = useState("")
 
     function handleClick(){
         fetch(HandData)
@@ -17,7 +17,7 @@ function IgnitionMapper() {
         })
         .then(function(data){
             setFileText(data)
-            setAllHands(setupTournament(data))
+            setTournament(setupTournament(data))
         }) 
     }
 
@@ -28,7 +28,7 @@ function IgnitionMapper() {
     return (
         <div>
             <button onClick={handleClick}>Upload File</button><br/>
-            {allHands}
+            {tournament}
         </div>
     )
 }

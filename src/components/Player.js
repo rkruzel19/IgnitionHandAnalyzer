@@ -16,12 +16,12 @@ function Player(props) {
 
     return (
         <div className="player">
-            <h3>Player id: {id}</h3>
-            <h3>Stack size: {stackSize}</h3>
-            <h3>Hole cards: {holeCards}</h3>
-            <h3>Position: {position}</h3>
+            <h5>Player id: {id}</h5>
+            <h5>Stack size: {stackSize}</h5>
+            <h5>Hole cards: {holeCards}</h5>
+            <h5>Position: {position}</h5>
             {/* <h3>Seat Position: {seatPosition}</h3> */}
-            <h3>----------------------</h3>
+            <h4>----------------------</h4>
         </div>
     )
 }
