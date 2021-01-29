@@ -10,10 +10,10 @@ function Tournament(props){
 
     return (
         <div className="tournament">
-            <h3>Tournament id: {id}</h3>
-            <h3>Start time: {startTime}</h3>
-            <h3>Extra: {extra}</h3>
-            <h3>Hands: {hands}</h3>
+            <div className="tournament_id">Tournament id: {id}</div>
+            <div className="start_time">Start time: {startTime}</div>
+            <div className="extra">Extra: {extra}</div>
+            <div className="hands">Hands: {hands}</div>
         </div>
     )
 }

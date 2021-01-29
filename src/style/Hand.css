@@ -1,3 +1,50 @@
 .hand {
     color: green;
 }
+
+.hand_info {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.hand_id {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center_area {
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.action {
+    width: 35%;
+    border: 2px solid black
+}
+
+.board {
+    padding: 70px 0;
+    text-align: center;
+    width: 30%;
+    border: 2px solid black 
+}
+
+.pot {
+
+}
+
+.community_cards {
+ font-size: 25px;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+.summary {
+    width: 35%;
+    border: 2px solid black
+}
+
+.players {
+    /* border: 2px solid black; */
+    display: flex;
+}

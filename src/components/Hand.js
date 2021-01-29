@@ -18,22 +18,22 @@ function Hand(props){
 
     return (
         <div className="hand">
-            <h3>Hand id: {id}</h3>
-            <h3>Start time: {startTime}</h3>
-            
-            {/* <h3>winner: {winner}</h3> */}
-            
-            <h3>blind level: {blindLevel}</h3>
-            <h3>total pot: {totalPot}</h3>
-            <h3>communityCards: {communityCards}</h3>
-            <h4>action: {action}</h4>
-            
-            <h4>event summary: {eventSummary}</h4>
-            <h3>players: {players}</h3>
-            {/* <h3>blinds: {blinds}</h3> */}
-            {/* <h3>dealer: {dealer}</h3> */}
-            
-            {/* <h3>stage: {stage}</h3> */}
+            <div className="hand_info">
+                <div className="hand_id">Hand #{id}</div>
+                <div className="start_time">{startTime}</div>
+                <div className="blind_level">{blindLevel}</div>
+            </div>
+
+            <div className="center_area">
+                <div className="action">{action}</div>
+                <div className="board">
+                    <div className="community_cards">{communityCards}</div>
+                    <div className="pot">total pot: {totalPot}</div>
+                </div>
+                <div className="summary">{eventSummary}</div>
+            </div>
+
+            <div className="players">{players}</div>
         </div>
     )
 }
