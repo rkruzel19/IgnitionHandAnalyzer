@@ -15,14 +15,20 @@ function Hand(props){
     const [blindLevel, setBlindLevel] = useState(props.info.blindLevel)
     const [totalPot, setTotalPot] = useState(props.info.totalPot)
     const [eventSummary, setEventSummary] = useState(props.info.eventSummary)
+    const [actionByLine, setActionByLine] = useState("")
+    const [summaryByLine, setSummaryByLine] = useState("")
 
-    var actionByLine = allAction.map( action => 
-        <div> {action} </div>
-    )
+    function showAction() {
+        setActionByLine(allAction.map( action => 
+            <div> {action} </div>
+        ))
+    }
 
-    var summaryByLine = eventSummary.map( summary =>
-        <div> {summary} </div>
-    )
+    function showSummary() {
+        setSummaryByLine(eventSummary.map( summary =>
+            <div> {summary} </div>
+        ))
+    }
 
     return (
         <div className="hand">
@@ -35,6 +41,7 @@ function Hand(props){
             <div className="center_area">
                 <div className="action">
                     <h2>Action</h2>
+                    <button onClick={showAction}>Show Action</button>
                     {actionByLine}
                 </div>
                 <div className="board">
@@ -43,6 +50,7 @@ function Hand(props){
                 </div>
                 <div className="summary">
                     <h2>Summary</h2>
+                    <button onClick={showSummary}>Show Summary</button>
                     {summaryByLine}
                 </div>
             </div>
