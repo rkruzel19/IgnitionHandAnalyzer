@@ -4,8 +4,9 @@
 }
 
 .hand_info {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .hand_id {
@@ -21,7 +22,7 @@
 
 .action {
     width: 35%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 2px;
 }
 
@@ -29,7 +30,7 @@
     /* padding: 25% 0; */
     text-align: center;
     width: 30%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
 }
 
@@ -41,17 +42,20 @@
 }
 
 .community_cards {
- font-size: 30px;
- text-decoration: underline;
+ font-size: 22px;
+ /* text-decoration: underline; */
+ border: 2px solid black;
  font-weight: bold;
  position: absolute;
  bottom: 25px;
  width: -webkit-fill-available;
+ padding: 3px;
+ margin-bottom: 3px;
 }
 
 .summary {
     width: 35%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 2px;
 }
 
