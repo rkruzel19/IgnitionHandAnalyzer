@@ -1,6 +1,6 @@
-import React from "react"
 import Hand from "../Hand"
 import PlayerMapper from "./PlayerMapper"
+import React from "react"
 
 function HandMapper(tournamentText){
 

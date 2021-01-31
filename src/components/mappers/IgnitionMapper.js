@@ -1,5 +1,5 @@
-import HandData from "../../JackpotSNG.txt";
-// import HandData from "../../ScheduledTournament.txt";
+// import HandData from "../../JackpotSNG.txt";
+import HandData from "../../ScheduledTournament.txt";
 import {useState, useEffect} from "react";
 import Tournament from "../Tournament" 
 import TournamentMapper from "./TournamentMapper";

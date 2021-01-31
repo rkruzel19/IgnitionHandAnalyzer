@@ -19,32 +19,46 @@
 
 .action {
     width: 35%;
-    border: 2px solid black
+    border: 2px solid black;
+    padding-left: 2px;
 }
 
 .board {
-    padding: 70px 0;
+    padding: 25% 0;
     text-align: center;
     width: 30%;
-    border: 2px solid black 
+    border: 2px solid black;
 }
 
 .pot {
-
+    font-size: 20px;
 }
 
 .community_cards {
- font-size: 25px;
+ font-size: 30px;
  text-decoration: underline;
  font-weight: bold;
 }
 
 .summary {
     width: 35%;
-    border: 2px solid black
+    border: 2px solid black;
+    padding-left: 2px;
 }
 
 .players {
     /* border: 2px solid black; */
     display: flex;
+}
+
+.action h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.summary h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px 0;
 }

@@ -6,7 +6,7 @@ function Hand(props){
     const [id, setId] = useState(props.info.id)
     const [players, setPlayers] = useState(props.info.players)
     const [winner, setWinner] = useState(props.info.winner)
-    const [action, setAction] = useState(props.info.action)
+    const [allAction, setAllAction] = useState(props.info.action)
     const [blinds, setBlinds] = useState(props.info.blinds)
     const [dealer, setDealer] = useState(props.info.dealer)
     const [communityCards, setCommunityCards] = useState(props.info.communityCards)
@@ -15,6 +15,14 @@ function Hand(props){
     const [blindLevel, setBlindLevel] = useState(props.info.blindLevel)
     const [totalPot, setTotalPot] = useState(props.info.totalPot)
     const [eventSummary, setEventSummary] = useState(props.info.eventSummary)
+
+    var actionByLine = allAction.map( action => 
+        <div> {action} </div>
+    )
+
+    var summaryByLine = eventSummary.map( summary =>
+        <div> {summary} </div>
+    )
 
     return (
         <div className="hand">
@@ -25,12 +33,18 @@ function Hand(props){
             </div>
 
             <div className="center_area">
-                <div className="action">{action}</div>
+                <div className="action">
+                    <h2>Action</h2>
+                    {actionByLine}
+                </div>
                 <div className="board">
                     <div className="community_cards">{communityCards}</div>
                     <div className="pot">total pot: {totalPot}</div>
                 </div>
-                <div className="summary">{eventSummary}</div>
+                <div className="summary">
+                    <h2>Summary</h2>
+                    {summaryByLine}
+                </div>
             </div>
 
             <div className="players">{players}</div>
