@@ -1,0 +1,16 @@
+.front_page {
+    border: 3px solid black;
+    text-align: center;
+    width: 70%;
+    /* height: 60%; */
+    margin: auto;
+    padding: 50px 0;
+    margin-top: 25%;
+    /* margin-top: 25%; */
+}
+
+
+
+.right {
+    background-color: red;
+}

@@ -35,3 +35,10 @@ Project created 12/28/20
 - ***ALL MAPPERS DONE***
   - mvp for all mappers done. pulls all necessary info from txt file and creates a Tournament component from it.
 - Made secondary setupRegex for when hand txt doesn't have a "Set dealer line". Found this problem in ScheduledTournament
+
+*** Long break, vacation, laptop broke, lost some data ***
+
+2/1/21
+- Got new laptop/environment going
+- Finished UI to easily read tournament hands
+- Basic mock UI and mapper done. Next = implementing users/accounts
