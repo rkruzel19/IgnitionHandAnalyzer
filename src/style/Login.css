@@ -1,0 +1,7 @@
+.login_area > * {
+    padding: 5px;
+}
+
+label {
+    padding-right: 5px;
+}

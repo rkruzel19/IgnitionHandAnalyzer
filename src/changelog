@@ -42,3 +42,15 @@ Project created 12/28/20
 - Got new laptop/environment going
 - Finished UI to easily read tournament hands
 - Basic mock UI and mapper done. Next = implementing users/accounts
+
+3/4/21
+- Created lot of new things to get users Implemented
+  - Welcome (welcome page, can login or create user)
+  - Login (component used for logging in)
+  - NewUser (controls creating new accounts)
+  - User (each individuals specific account)
+  - MockTournamentComp and MockUserDB (used to verify logic before persistance is added)
+  - Basic css for all needed
+- GOAL = 
+      - being able to type user info into login and check mockDB if user exists and if it does, displays info
+      - can create a new account (wont persist for now. thats next) then bring you to the new account's home page

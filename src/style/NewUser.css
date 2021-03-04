@@ -1,4 +1,4 @@
-.front_page {
+.new_user {
     border: 3px solid black;
     text-align: center;
     width: 70%;
@@ -7,12 +7,10 @@
     margin-top: 200px;
 }
 
-label {
-    padding-right: 5px;
+.new_user > * {
+    padding: 5px;
 }
 
-
-
-.create_account_btn {
-    margin: 5px;
+label {
+    padding-right: 5px;
 }

@@ -4,13 +4,15 @@ import './style/App.css';
 import Tournament from './components/Tournament';
 import IgnitionMapper from './components/mappers/IgnitionMapper';
 import MockTournamentComp from './components/MockTournamentComp';
-import UserAccount from './components/UserAccount';
+import User from './components/User';
 import Welcome from './components/Welcome';
+import NewUser from './components/NewUser';
 
 function App() {
   return (
     <div>
       <Welcome/>
+      <NewUser/>
     </div>
   );
 }
